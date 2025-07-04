@@ -38,7 +38,6 @@ public class Guest {
         sb.append("firstName='").append(firstName).append('\'');
         sb.append(", lastName='").append(lastName).append('\'');
         sb.append(", email='").append(email).append('\'');
-        // Используем форматтер для вывода даты рождения
         sb.append(", birthday=").append(birthday.format(DATE_FORMATTER));
         sb.append('}');
         return sb.toString();
